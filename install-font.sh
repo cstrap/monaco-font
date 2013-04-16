@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Start install"
-sudo mkdir /usr/share/fonts/truetype/custom
+sudo mkdir -p /usr/share/fonts/truetype/custom
 echo "Downloading font"
 wget -c https://github.com/cstrap/monaco-font/raw/master/Monaco_Linux.ttf
 echo "Installing font"
