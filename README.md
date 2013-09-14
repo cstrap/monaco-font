@@ -1,4 +1,4 @@
-monaco-font
+Monaco-Font
 ===========
 
 Install Monaco Font on Ubuntu
