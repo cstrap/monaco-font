@@ -9,7 +9,7 @@ wget -c https://github.com/cstrap/monaco-font/raw/master/Monaco_Linux.ttf
 echo "Installing font"
 sudo mv Monaco_Linux.ttf /usr/share/fonts/truetype/custom/
 
-echo "Updating font chache"
+echo "Updating font cache"
 sudo fc-cache -f -v
 
 echo "Enjoy"
