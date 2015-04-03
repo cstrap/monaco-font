@@ -5,6 +5,8 @@ Install Monaco Font on Linux distro
 
 Inspired by http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html
 
+Hope you appreciate, I've created different branches in order to satisfy all users. Indeed, some issues on different font versions can cause awful behavior on font rendering.
+
 ---
 
 #### Install Monaco Font on Ubuntu
