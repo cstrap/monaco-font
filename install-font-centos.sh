@@ -1,18 +1,22 @@
 #!/bin/bash
 
+URL=$1
+FILENAME=${URL##*/}
+FONT_DIR=/usr/share/fonts/monaco/
+
 su
 
 echo "Start install"
-mkdir -p /usr/share/fonts/monaco
+mkdir -p $FONT_DIR
 
 echo "Entering Font Directory"
-cd /usr/share/fonts/monaco
+cd $FONT_DIR
 
 echo "Downloading font"
-wget -c https://github.com/cstrap/monaco-font/raw/master/Monaco_Linux.ttf
+wget -c $URL
 
 echo "Installing font"
-chmod 644 Monaco_Linux.ttf
+chmod 644 $FILENAME
 mkfontscale
 mkfontdir
 

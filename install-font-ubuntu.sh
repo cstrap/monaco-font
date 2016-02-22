@@ -1,19 +1,22 @@
 #!/bin/bash
 
+URL=$1
+FILENAME=${URL##*/}
+FONT_DIR=/usr/share/fonts/truetype/custom/
+
+echo $FILENAME
+echo $FONT_DIR
+
 echo "Start install"
-#sudo mkdir -p /usr/share/fonts/truetype/custom
-mkdir -p /tmp/font/
+sudo mkdir -p $FONT_DIR
 
 echo "Downloading font"
-url=$1
-wget -c $url
+wget -c $URL
 
 echo "Installing font"
-#sudo mv ${url##*/} /usr/share/fonts/truetype/custom/
-filename=${url##*/}
-echo mv $filename  /tmp/font/
+mv $FILENAME $FONT_DIR
 
 echo "Updating font cache"
-#sudo fc-cache -f -v
+sudo fc-cache -f -v
 
 echo "Enjoy"
