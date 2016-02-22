@@ -1,30 +1,40 @@
 monaco-font
 ======
 
-Install Monaco Font on Linux distro
+Install Monaco Font on Linux distro.
 
-Due to license issue I removed all `Monaco_Linux.ttf` binary files form the repo, see discussion on issue [#10](https://github.com/cstrap/monaco-font/issues/10).
+The idea started from here http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html.
+The main goal of the repo was to provide a script that download and install the `Monaco` font on ubuntu.
 
-All the scripts remain and should accept a parameter that is the link to the font, see above for the links. - WIP -
+Unfortunately, due to license issue I removed all `Monaco_Linux.ttf` binary files form the repo, see discussion on issue [#10](https://github.com/cstrap/monaco-font/issues/10).
 
-Note: since I don't know the origin of the fonts, the original author and the original license, `monaco font` will be used at own risk. I only provide the scripts that permits the download and then install it on your linux distro. All the scripts is provided as-is with the public domain license. So you can copy, modify, use and so on all the bash scripts without restrictions. 
-I invite all the github users that fork the repository to know that there's a issue on using font without permissions.
+Nevertheless, all the scripts remain and accept a parameter that is the link to the font, see above; now all the scripts are generics and can accept a raw `url` that point to the font.
 
-Monaco font can be downloaded from these links: 
-* https://github.com/geosoft1/tools | http://usystem.googlecode.com/files/MONACO.TTF
-* http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html | http://jorrel.googlepages.com/Monaco_Linux.ttf
-* http://www.gringod.com/ | http://www.gringod.com/wp-upload/software/Fonts/Monaco_Linux.ttf
-* https://gist.github.com/epegzz/1634235#file-monaco_linux-powerline-ttf | https://gist.github.com/epegzz/1634235/raw/4691e901750591f9cab0b4ae8b7c0731ebf28cce/Monaco_Linux-Powerline.ttf
-* https://github.com/todylu/monaco.ttf | https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true
+**Disclaimer**: since I don't know the origin of the fonts, the original author and the original license, `Monaco` font (and potentially other fonts) will be used at own risk. I only provide the scripts that permits the download and then install it on your linux distro. All the scripts is provided as-is and have the public domain license; so you can copy, modify, use and so on without restrictions. 
+*I invite all the github users that fork and forked the repository to know that there's an issue on using fonts without permissions.*
 
-There're a plethora of variations of `Monaco`, PR in order to update the list. **Please notify also the license**.
+The `Monaco_Linux.ttf` font file can be downloaded from these links: 
+* https://github.com/geosoft1/tools => http://usystem.googlecode.com/files/MONACO.TTF
+* http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html => http://jorrel.googlepages.com/Monaco_Linux.ttf
+* http://www.gringod.com/ => http://www.gringod.com/wp-upload/software/Fonts/Monaco_Linux.ttf
+* https://gist.github.com/epegzz/1634235#file-monaco_linux-powerline-ttf => https://gist.github.com/epegzz/1634235/raw/4691e901750591f9cab0b4ae8b7c0731ebf28cce/Monaco_Linux-Powerline.ttf
+* https://github.com/todylu/monaco.ttf => https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf?raw=true
 
-Feel free to ask to the deliver (who maintain the file) what's the license of the font and please made a PR in order to update the information on this repo. 
+On the net you'll find a plethora of variations of `Monaco`, if you want make a PR in order to update the list and please **provide and notify the license** of the font whatever it is.
+
+Feel free to ask to the maintainer of the font file or who has the font file on his/her server what's the license of the font and please made a PR in order to update the information on this repo. 
 
 Many thanks for all the contributions!
 
 ---
 
+Replace `[url]` with the url of the font, e.g. 
+
+``` bash
+curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF | bash
+```
+
+---
 #### Install Monaco Font on Ubuntu
 
 ```bash
