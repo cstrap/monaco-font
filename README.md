@@ -10,8 +10,9 @@ Unfortunately, due to license issue I removed all `Monaco_Linux.ttf` binary file
 
 Nevertheless, all the scripts remain and accept a parameter that is the link to the font, see above; now all the scripts are generics and can accept a raw `url` that point to the font.
 
-**Disclaimer**: since I don't know the origin of the fonts, the original author and the original license, `Monaco` font (and potentially other fonts) will be used at own risk. I only provide the scripts that permits the download and then install it on your linux distro. All the scripts is provided as-is and have the public domain license; so you can copy, modify, use and so on without restrictions. 
-*I invite all the github users that fork and forked the repository to know that there's an issue on using fonts without permissions.*
+**Disclaimer**: since I don't know the origin of the fonts, the original author and the original license, `Monaco` font (and potentially other fonts) will be used at own risk. Users should know the font license before download and install it. With this repo, I only provide the scripts that permits the download and then install fonts on your linux distro. All the scripts is provided as-is and have the public domain license; so you can copy, modify, use and so on without restrictions. 
+
+**I invite all the github users that fork and forked the repository to know that there's copyright issue on using fonts without permissions.**
 
 The `Monaco_Linux.ttf` font file can be downloaded from these links: 
 * https://github.com/geosoft1/tools => http://usystem.googlecode.com/files/MONACO.TTF
@@ -22,7 +23,7 @@ The `Monaco_Linux.ttf` font file can be downloaded from these links:
 
 On the net you'll find a plethora of variations of `Monaco`, if you want make a PR in order to update the list and please **provide and notify the license** of the font whatever it is.
 
-Feel free to ask to the maintainer of the font file or who has the font file on his/her server what's the license of the font and please made a PR in order to update the information on this repo. 
+Feel free to ask to the maintainer of the font file or who has the font file on his/her server what's the license and please made a PR in order to update the information on this repo. 
 
 Many thanks for all the contributions!
 
