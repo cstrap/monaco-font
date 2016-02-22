@@ -28,29 +28,32 @@ Many thanks for all the contributions!
 
 ---
 
-Replace `[url]` with the url of the font, e.g. 
+## HOW TO
+
+* Clone the repository
+* launch the script and replace `[url]` with the url of the font, e.g. 
 
 ``` bash
-curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF | bash
+./install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF
 ```
 
 ---
 #### Install Monaco Font on Ubuntu
 
 ```bash
-curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh [url] | bash
+./install-font-ubuntu.sh [url]
 ```
 
 #### Install Monaco Font on CentOS
 
 ```bash
-curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-centos.sh [url] | bash
+./install-font-centos.sh [url]
 ```
 
 #### Install Monaco Font on Gentoo
 
 ```bash
-curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-gentoo.sh [url] | bash
+./install-font-gentoo.sh [url]
 ```
 
 
