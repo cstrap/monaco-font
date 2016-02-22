@@ -10,7 +10,8 @@ wget -c $url
 
 echo "Installing font"
 #sudo mv ${url##*/} /usr/share/fonts/truetype/custom/
-echo mv ${url##*/} /tmp/font/
+filename=${url##*/}
+echo mv $filename  /tmp/font/
 
 echo "Updating font cache"
 #sudo fc-cache -f -v
