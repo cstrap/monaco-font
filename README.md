@@ -8,10 +8,13 @@ The main goal of the repo was to provide a script that download and install the 
 
 Unfortunately, due to license issue I removed all `Monaco_Linux.ttf` binary files form the repo, see discussion on issue [#10](https://github.com/cstrap/monaco-font/issues/10).
 
-Nevertheless, all the scripts remain and accept a parameter that is the link to the font, see above; now all the scripts are generics and can accept a raw `url` that point to the font.
+Nevertheless, all the scripts remain and accept a parameter that is the link to the font, see below; now all the scripts are generics and can accept a raw `url` that point to the font.
+That's sound good! Some of the world's best open source fonts are hosted right here on GitHub and can be viewed form:
+* https://github.com/showcases/fonts
+
+---
 
 **Disclaimer**: since I don't know the origin of the fonts, the original author and the original license, `Monaco` font (and potentially other fonts) will be used at own risk. Users should know the font license before download and install it. With this repo, I only provide the scripts that permits the download and then install fonts on your linux distro. All the scripts are provided as-is and have the public domain license; so you can copy, modify, use and so on without restrictions. 
-
 **I invite all the github users that fork and forked the repository to know that there's copyright issue on using fonts without permissions.**
 
 The `Monaco_Linux.ttf` font file can be downloaded from these links: 
