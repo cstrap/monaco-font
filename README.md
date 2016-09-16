@@ -18,7 +18,7 @@ That's sound good! Some of the world's best open source fonts are hosted right h
 **I invite all the github users that fork and forked the repository to know that there's copyright issue on using fonts without permissions.**
 
 The `Monaco_Linux.ttf` font file can be downloaded from these links: 
-* https://github.com/geosoft1/tools => http://usystem.googlecode.com/files/MONACO.TTF
+
 * http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html => http://jorrel.googlepages.com/Monaco_Linux.ttf
 * http://www.gringod.com/ => http://www.gringod.com/wp-upload/software/Fonts/Monaco_Linux.ttf
 * https://gist.github.com/epegzz/1634235#file-monaco_linux-powerline-ttf => https://gist.github.com/epegzz/1634235/raw/4691e901750591f9cab0b4ae8b7c0731ebf28cce/Monaco_Linux-Powerline.ttf
