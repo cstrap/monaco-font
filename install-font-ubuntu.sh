@@ -14,7 +14,7 @@ echo "Downloading font"
 wget -c $URL
 
 echo "Installing font"
-mv $FILENAME $FONT_DIR
+sudo mv $FILENAME $FONT_DIR
 
 echo "Updating font cache"
 sudo fc-cache -f -v
