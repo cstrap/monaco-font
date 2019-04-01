@@ -6,7 +6,7 @@ Install Monaco Font on Linux distro.
 The idea started from here http://jorrel.blogspot.it/2007/11/monaco-on-ubuntu.html.
 The main goal of the repo was to provide a script that download and install the `Monaco` font on ubuntu and not provide the font itself.
 
-Unfortunately, due to license issue I removed all `Monaco_Linux.ttf` binary files form the repo, see discussion on issue [#10](https://github.com/cstrap/monaco-font/issues/10).
+Unfortunately, due to license issue I removed all `Monaco_Linux.ttf` binary files from the repo, see discussion on issue [#10](https://github.com/cstrap/monaco-font/issues/10).
 
 Nevertheless, all the scripts remain and accept a parameter that is the link to the font, see below; now all the scripts are generics and can accept a raw `url` that point to the font.
 That's sound good! Some of the world's best open source fonts are hosted right here on GitHub and can be viewed form:
