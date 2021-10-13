@@ -34,10 +34,16 @@ Many thanks for all the contributions!
 
 ## HOW TO
 
-* Clone the repository
-* launch the script and replace `[url]` with the url of the font, e.g. 
+Clone the repository
 
 ``` bash
+git clone https://github.com/cstrap/monaco-font
+```
+
+Launch the script and replace `[url]` with the url of the font, e.g. 
+
+``` bash
+cd monaco-font
 ./install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF
 ```
 
