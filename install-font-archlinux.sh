@@ -1,21 +1,24 @@
 #!/bin/bash
 
-URL=$1
+URL="$1"
 FILENAME=${URL##*/}
-FONT_DIR=/usr/share/fonts/TTF/
+FONT_DIR=~/.fonts/TTF/
 
-echo "Start install"
-# sudo mkdir -p /usr/share/fonts/truetype/custom
-# we don't need to do that, we have the TTF folder in /usr/share/fonts/ already
-# take a look to the folder structure in: https://wiki.archlinux.org/index.php/Fonts#International_users
+if [ -n "$URL" ]
+then
+    echo "Start install"
+    mkdir -p $FONT_DIR
 
-echo "Downloading font"
-wget -c $URL
+    echo "Downloading font"
+    wget -c $URL
 
-echo "Installing font"
-sudo mv $FILENAME $FONT_DIR
+    echo "Installing font"
+    mv $FILENAME $FONT_DIR
 
-echo "Updating font cache"
-sudo fc-cache -f -v
+    echo "Updating font cache"
+    fc-cache -f -v
 
-echo "Enjoy"
+    echo "Enjoy"
+else
+    echo "No URL was provided. Please run the script again providing an URL to download a font."
+fi

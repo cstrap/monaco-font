@@ -66,4 +66,9 @@ cd monaco-font
 ./install-font-gentoo.sh [url]
 ```
 
+#### Install Monaco Font on Arch Linux
+
+```bash
+./install-font-archlinux.sh [url]
+```
 
